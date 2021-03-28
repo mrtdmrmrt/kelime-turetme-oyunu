@@ -1,0 +1,44 @@
+:root {
+    --primary: #174171;
+    --secondary: #4A90E2;
+    --grey: #9B9B9B;
+    --dark-grey: #4A4A4A;
+    --red: #911111;
+    --white: #ffffff;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--primary);
+    margin-top: 4rem;
+}
+
+.point {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--secondary);
+    margin-top: 2rem;
+}
+
+#pc-name {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--dark-grey);
+    margin-top: 4rem;
+}
+
+#time {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--grey);
+    margin-top: 6rem;
+}
+
+#errorMsg {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--red);
+    margin-top: 8rem;
+}
